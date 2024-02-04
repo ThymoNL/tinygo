@@ -1,6 +1,6 @@
 module github.com/tinygo-org/tinygo
 
-go 1.18
+go 1.21
 
 require (
 	github.com/aykevl/go-wasm v0.0.2-0.20220616010729-4a0a888aebdc
@@ -33,3 +33,5 @@ require (
 	github.com/mattn/go-isatty v0.0.12 // indirect
 	golang.org/x/text v0.14.0 // indirect
 )
+
+replace tinygo.org/x/go-llvm => ../go-llvm
